@@ -29,7 +29,9 @@ body {
 
 .header {
     min-height: 100vh;
-    background: dodgerblue
+    background: dodgerblue;
+    display: flex;
+    flex-direction: column;
 }
 
 .header__nav {
@@ -50,6 +52,16 @@ body {
 .header__link {
     font-size: 18px;
     margin-left: 25px;
+}
+
+
+.header__title {
+    font-size: 80px;
+    color: #fff;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 /* header end */
