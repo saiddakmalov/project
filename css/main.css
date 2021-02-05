@@ -69,4 +69,34 @@ body {
 section {
     min-height: 100vh;
     background: mediumpurple;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.section__content {
+    max-width: 500px;
+    width: 100%;
+    min-height: 500px;
+    border-radius: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    background: dodgerblue;
+    color: #fff;
+}
+
+.section__txt {
+    max-width: 450px;
+    width: 100%;
+}
+
+.section__btn {
+    padding: 5px 15px;
+    background: #fff;
+    border-radius: 20px;
+    color: dodgerblue;
 }
