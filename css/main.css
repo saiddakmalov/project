@@ -100,3 +100,19 @@ section {
     border-radius: 20px;
     color: dodgerblue;
 }
+
+.content {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 0 100px;
+    background: dodgerblue;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+    gap: 30px;
+    color: #fff;
+}
